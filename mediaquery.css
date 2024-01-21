@@ -1,0 +1,186 @@
+/* hero section */
+@media screen and (max-width: 1486px) {
+    #name {
+        font-size: 7rem;
+    }
+
+}
+
+@media screen and (max-width: 1438px) {
+    #name {
+        font-size: 6.5rem;
+    }
+
+    main {
+        padding: 1.5rem;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1272px) {
+    main .image img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    main {
+        padding-top: 3rem;
+    }
+
+    #name {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 1323px) {
+    body {
+        padding: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    #name {
+        font-size: 5rem;
+    }
+
+    main {
+        padding: 4rem 1rem;
+    }
+
+    #projects {
+        padding: 6rem 3rem 6rem 6rem;
+    }
+}
+
+@media screen and (max-width: 961px) {
+    body {
+        padding: 3.5rem 2.3rem;
+    }
+
+    #project-names {
+        font-size: 3rem;
+    }
+
+    .fleftelm p {
+        font-size: 1rem;
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main .content .gap {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #projects {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    #about {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #fleft {
+        width: fit-content;
+    }
+
+    #fright {
+        position: absolute;
+        width: 100%;
+        justify-content: start;
+        z-index: -1;
+    }
+
+    #fright .images img{
+        opacity: 0;
+    }
+
+    .copyright{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main .image img {
+        height: 250px;
+        width: 250px;
+    }
+
+    #name {
+        font-size: 5rem;
+    }
+
+    main .content {
+        padding-left: 3rem;
+    }
+
+    #arrow_down {
+        margin-top: 0.5rem;
+    }
+
+    main .content .helloiam {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    main .image img {
+        height: 350px;
+        width: 350px;
+    }
+
+    main .content .gap {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 666px) {
+    #name {
+        font-size: 4rem;
+    }
+
+    #contact{
+        padding: 6rem 0;
+    }
+
+    nav ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    main {
+        padding: 2rem 0;
+    }
+
+    #name {
+        font-size: 3rem;
+    }
+
+    #projects{
+        padding: 4rem 2rem;
+    }
+
+    #fright{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+}

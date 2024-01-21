@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajdeep's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Salsa&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+    <link rel="icon" type="image/x-icon" href="./public/bg remove dark.svg">
+
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav>
+        <p id="heading" class="text">RAJDEEP</p>
+
+        <ul>
+            <li><a href="#">< home /></a></li>
+            <li><a href="#projects">< projects /></a></li>
+            <li><a href="#contact">< contact /></a></li>
+        </ul>
+
+        <div id="toggler">
+            <div id="dark-mode"><i class="ri-sun-line icon" style="font-size: 2rem;"></i></div>
+            <div id="light-mode"><i class="ri-moon-line" style="font-size: 2rem;"></i></div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <main>
+        <div class="image">
+            <img src="./public/bg remove.svg" alt="my-image" id="my-img">
+            <img src="./public/bg remove dark.svg" alt="my-image" id="my-img-dark">
+        </div>
+
+        <div class="content">
+            <p class="helloiam text">Hello I'm,</p>
+            <div class="gap">
+                <p id="name">Rajdeep</p>
+                <p id="name">Mallick</p>
+            </div>
+            <div id="about">
+                <div class="text">Final Year Undergrad at Jadavpur University</div>
+                <div class="text">Majoring in Information Technology</div>
+            </div>
+
+            <a class="icon" href="#projects" id="arrow_down">
+                <i class="ri-arrow-down-double-line icon"></i>
+            </a>
+        </div>
+    </main>
+
+
+    <!-- projects section -->
+    <section id="projects">
+        <div class="section-heading">
+            <p>check out</p>
+            <p id="heading">PROJECT WORKS</p>
+        </div>
+
+        <div class="fimages">
+            <div id="fleft">
+                <div class="fleftelm">
+                    <p id="project-names">CODIO</p>
+                    <p>Full Stack Blog Writing Website</p>
+                    <p>Tech: React JS, SCSS, Firebase</p>
+                    <a href="https://codioshare.web.app/" class="url" target="_blank">
+                        Link
+                    </a>
+                </div>
+                <div class="fleftelm">
+                    <p id="project-names">CLINICARE</p>
+                    <p>Prescription Management Application</p>
+                    <p>Tech: EJS, Express JS, MongoDB</p>
+                    <a href="https://clinicare010.onrender.com/" class="url" target="_blank">
+                        Link
+                    </a>
+                </div>
+                <div class="fleftelm">
+                    <p id="project-names">LET'S CHAT</p>
+                    <p>Realtime Chat Application</p>
+                    <p>Tech: Node JS, Socket.io</p>
+                    <a href="https://lets-chat-oqai.onrender.com/" class="url" target="_blank">
+                        Link
+                    </a>
+                </div>
+                <div class="fleftelm last">
+                    <p id="project-names">MOVIES HUB</p>
+                    <p>Movie info fetching website</p>
+                    <p>Tech: EJS, Express JS, TMDB API</p>
+                    <a href="https://movies-hub010.onrender.com/" class="url" target="_blank">
+                        Link
+                    </a>
+                </div>
+            </div>
+            <div id="fright">
+                <div class="images">
+                    <img src="./public/codio.png" alt="codio">
+                    <img src="./public/clinicare.png" alt="clinicare">
+                    <img src="./public/lets-chat.png" alt="letschat">
+                    <img src="./public/moviesHub.png" alt="movieshub">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section -->
+    <section id="contact">
+        <div class="contact-section-heading">
+            <p>get in touch</p>
+            <p id="heading">CONTACT ME</p>
+        </div>
+
+        <a href="mailto:rajdeepmallick999@gmail.com" class="url-mail" target="_blank"><i class="ri-mail-line icon" style="font-size: 1.2rem;"></i> Mail</a>
+
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/rajdeep-mallick-6477381b4/"><i class="ri-linkedin-fill icon"></i></a>
+            <a href="https://github.com/rajdeep010"><i class="ri-github-fill icon"></i></a>
+            <a href="https://www.instagram.com/rajdeepmallick010"><i class="ri-instagram-fill icon"></i></a>
+        </div>
+
+        <p class="copyright">Copyright © 2024 Rajdeep Mallick</p>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+    <script src="./darklightmode.js"></script>
+</body>
+
+</html>
